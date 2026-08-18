@@ -1,0 +1,766 @@
+dn: cn=Teresa Akins (Vanscoy),mail=brat@iximd.com
+modifytimestamp: 20010425131007Z
+cn: Teresa Akins (Vanscoy)
+mail: brat@iximd.com
+xmozillausehtmlmail: FALSE
+givenname: Teresa
+sn: Akins (Vanscoy)
+objectclass: top
+objectclass: person
+
+dn: cn=Rex Alfes,mail=ralfes@home.com
+modifytimestamp: 20010322174444Z
+cn: Rex Alfes
+mail: ralfes@home.com
+xmozillausehtmlmail: FALSE
+givenname: Rex
+sn: Alfes
+objectclass: top
+objectclass: person
+
+dn: cn=Rex Alfes,mail=RAlfes@comcast.net
+modifytimestamp: 20020215013516Z
+cn: Rex Alfes
+mail: RAlfes@comcast.net
+xmozillausehtmlmail: FALSE
+givenname: Rex
+sn: Alfes
+objectclass: top
+objectclass: person
+
+dn: cn=Debbie Allione,mail=dallione@christianacare.org
+modifytimestamp: 20010417140941Z
+cn: Debbie Allione
+mail: dallione@christianacare.org
+xmozillausehtmlmail: FALSE
+givenname: Debbie
+sn: Allione
+objectclass: top
+objectclass: person
+
+dn: cn=Linda Kraemer (Baker),mail=KraemerLK4@aol.com
+modifytimestamp: 20010812143051Z
+cn: Linda Kraemer (Baker)
+mail: KraemerLK4@aol.com
+xmozillausehtmlmail: FALSE
+givenname: Linda
+sn: Baker (Kraemer)
+objectclass: top
+objectclass: person
+
+dn: cn=Lenny Balbach,mail=lbalbach@news-record.com
+modifytimestamp: 20010322215011Z
+cn: Lenny Balbach
+mail: balbach@rtelco.net
+xmozillausehtmlmail: FALSE
+givenname: Lenny
+sn: Balbach
+objectclass: top
+objectclass: person
+
+dn: cn=Bill Ballard,mail=w_ballard_29488@yahoo.com
+modifytimestamp: 20010228152833Z
+cn: Bill Ballard
+mail: w_ballard_29488@yahoo.com
+xmozillausehtmlmail: FALSE
+givenname: Bill
+sn: Ballard
+objectclass: top
+objectclass: person
+
+dn: cn=Linda Barnes,mail=hallbonk@aol.com
+modifytimestamp: 20010419172210Z
+cn: Linda Barnes
+mail: hallbonk@aol.com
+xmozillausehtmlmail: FALSE
+givenname: Linda
+sn: Barnes (Hall)
+objectclass: top
+objectclass: person
+
+dn: cn=Jackie Baynard,mail=rancho59@juno.com
+modifytimestamp: 20010529143834Z
+cn: Jackie Baynard
+mail: rancho59@juno.com
+xmozillausehtmlmail: FALSE
+givenname: Jackie
+sn: Baynard
+objectclass: top
+objectclass: person
+
+dn: cn=Bayard R Beck,mail=Bayard.R.Beck@USA.dupont.com
+modifytimestamp: 20010830182751Z
+cn: Bayard R Beck
+mail: Bayard.R.Beck@USA.dupont.com
+xmozillausehtmlmail: FALSE
+givenname: Bayard R
+sn: Beck
+objectclass: top
+objectclass: person
+
+dn: cn=Michele Becker,mail=mhbeep@aol.com
+modifytimestamp: 20010718001605Z
+cn: Michele Becker
+mail: mhbeep@aol.com
+xmozillausehtmlmail: FALSE
+givenname: Michele
+sn: Becker
+objectclass: top
+objectclass: person
+
+dn: cn=Ronnie Brooks,mail=ffbrooks@aol.com
+modifytimestamp: 20010216205239Z
+cn: Ronnie Brooks
+mail: ffbrooks@aol.com
+xmozillausehtmlmail: FALSE
+givenname: Ronnie
+sn: Brooks
+objectclass: top
+objectclass: person
+
+dn: cn=Joyce Marihugh (Brousseau),mail=jmarihugh@csc.com
+modifytimestamp: 20010419172336Z
+cn: Joyce Marihugh (Brousseau)
+mail: jmarihugh@csc.com
+xmozillausehtmlmail: FALSE
+givenname: Joyce
+sn: Brousseau (Marihugh)
+objectclass: top
+objectclass: person
+
+dn: cn=George Brown,mail=browngw@hotmail.com
+modifytimestamp: 20010529143855Z
+cn: George Brown
+mail: browngw@hotmail.com
+xmozillausehtmlmail: FALSE
+givenname: George
+sn: Brown
+objectclass: top
+objectclass: person
+
+dn: cn=Zina Bryant (Burke),mail=ZBurke@netEPS.com
+modifytimestamp: 20010531145022Z
+cn: Zina Bryant (Burke)
+mail: ZBurke@netEPS.com
+xmozillausehtmlmail: FALSE
+givenname: Zina
+sn: Bryant (Burke)
+objectclass: top
+objectclass: person
+
+dn: cn=Karen Buchanan,mail=klbuckie@aol.com
+modifytimestamp: 20010424132805Z
+cn: Karen Buchanan
+mail: klbuckie@aol.com
+xmozillausehtmlmail: FALSE
+givenname: Karen
+sn: Buchanan
+objectclass: top
+objectclass: person
+
+dn: cn=Wednesday Burke,mail=wburke@reedsmith.com
+modifytimestamp: 20010322174444Z
+cn: Wednesday Burke
+mail: wburke@reedsmith.com
+xmozillausehtmlmail: FALSE
+givenname: Wednesday
+sn: Burke
+objectclass: top
+objectclass: person
+
+dn: cn=Burris, C. R.,mail=cburriscpa@aol.com
+modifytimestamp: 20000314213454Z
+cn: C. R. Burris
+mail: cburriscpa@aol.com
+xmozillausehtmlmail: FALSE
+givenname: C.R.
+sn: Burris
+xmozillanickname: bigb
+xmozillauseconferenceserver: 0
+objectclass: top
+objectclass: person
+
+dn: cn=Dan Burroughs,mail=dan.burroughs@denewc.ang.af.mil
+modifytimestamp: 20010516172034Z
+cn: Dan Burroughs
+mail: dan.burroughs@denewc.ang.af.mil
+xmozillausehtmlmail: FALSE
+givenname: Dan
+sn: Burroughs
+objectclass: top
+objectclass: person
+
+dn: cn=Barb Calloway (Tharp),mail=tcrazygirls@aol.com
+modifytimestamp: 20010516172215Z
+cn: Barb Calloway (Tharp)
+mail: tcrazygirls@aol.com
+xmozillausehtmlmail: FALSE
+givenname: Barb
+sn: Calloway (Tharp)
+objectclass: top
+objectclass: person
+
+dn: cn=Andrea Cherundelo,mail=iddy@delanet.com
+modifytimestamp: 20010322174444Z
+cn: Andrea Cherundelo
+mail: iddy@delanet.com
+xmozillausehtmlmail: FALSE
+givenname: Andrea
+sn: Cherundelo
+objectclass: top
+objectclass: person
+
+dn: cn=Sue Cushing,mail=lita937@aol.com
+modifytimestamp: 20010516172131Z
+cn: Sue Cushing
+mail: lita937@aol.com
+xmozillausehtmlmail: FALSE
+givenname: Sue
+sn: Cushing
+objectclass: top
+objectclass: person
+
+dn: cn=David Deist,mail=davedeist@bigplanet.com
+modifytimestamp: 20010812143017Z
+cn: David Deist
+mail: davedeist@bigplanet.com
+xmozillausehtmlmail: FALSE
+givenname: David
+sn: Deist
+objectclass: top
+objectclass: person
+
+dn: cn=Sharon Arlington,mail=dsnemgc@delanet.com
+modifytimestamp: 20010419172005Z
+cn: Sharon Arlington
+mail: dsnemgc@delanet.com
+xmozillausehtmlmail: FALSE
+givenname: Sharon
+sn: Dempsey (Arlington)
+objectclass: top
+objectclass: person
+
+dn: cn=Edward Downes,mail=downese@dadebehring.com
+modifytimestamp: 20000314213510Z
+cn: Edward Downes
+mail: downese@dadebehring.com
+xmozillausehtmlmail: FALSE
+givenname: Edward
+sn: Downes
+objectclass: top
+objectclass: person
+
+dn: cn=Karla Duffy (Simei),mail=karlasimei@yahoo.com
+modifytimestamp: 20020228030731Z
+cn: Karla Duffy (Simei)
+mail: karlasimei@yahoo.com
+xmozillausehtmlmail: FALSE
+givenname: Karla
+sn: Duffy (Simei)
+objectclass: top
+objectclass: person
+
+dn: cn=Robert Emory,mail=x0307@aol.com
+modifytimestamp: 20010718001820Z
+cn: Robert Emory
+mail: x0307@aol.com
+xmozillausehtmlmail: FALSE
+givenname: Robert
+sn: Emory
+objectclass: top
+objectclass: person
+
+dn: cn=Lisa Faragher,mail=mrsthumbs@yahoo.com
+modifytimestamp: 20010419172701Z
+cn: Lisa Faragher
+mail: mrsthumbs@yahoo.com
+xmozillausehtmlmail: FALSE
+givenname: Lisa
+sn: Faragher (Williams)
+objectclass: top
+objectclass: person
+
+dn: cn=Rich Gannon,mail=deanimal69@aol.com
+modifytimestamp: 20010322174444Z
+cn: Rich Gannon
+mail: deanimal69@aol.com
+xmozillausehtmlmail: FALSE
+givenname: Rich
+sn: Gannon
+objectclass: top
+objectclass: person
+
+dn: cn=Cathi Haas,mail=chaticat@tampabay.rr.com
+modifytimestamp: 20010529143705Z
+cn: Cathi Haas
+mail: chaticat@tampabay.rr.com
+xmozillausehtmlmail: FALSE
+givenname: Cathi
+sn: Haas (Hill)
+objectclass: top
+objectclass: person
+
+dn: cn=Shirley Ham,mail=grfildcat@aol.com
+modifytimestamp: 20010322174444Z
+cn: Shirley Ham
+mail: grfildcat@aol.com
+xmozillausehtmlmail: FALSE
+givenname: Shirley
+sn: Ham
+objectclass: top
+objectclass: person
+
+dn: cn=Sharon Harrison,mail=SSCLAN4@aol.com
+modifytimestamp: 20020114210919Z
+cn: Sharon Harrison
+mail: SSCLAN4@aol.com
+xmozillausehtmlmail: FALSE
+givenname: Sharon
+sn: Harrison
+objectclass: top
+objectclass: person
+
+dn: cn=Robert Hauck,mail=Robert.j.hauck@lmco.com
+modifytimestamp: 20010322174444Z
+cn: Robert Hauck
+mail: Robert.j.hauck@lmco.com
+xmozillausehtmlmail: FALSE
+givenname: Robert
+sn: Hauck
+objectclass: top
+objectclass: person
+
+dn: cn=Maureen Hill,mail=maureen.malinowski@appo.k12.de.us
+modifytimestamp: 20010419172318Z
+cn: Maureen Hill
+mail: maureen.malinowski@appo.k12.de.us
+xmozillausehtmlmail: FALSE
+givenname: Maureen
+sn: Hill
+objectclass: top
+objectclass: person
+
+dn: cn=Arlisa Howard,mail=arlisahoward@hotmail.com
+modifytimestamp: 20010322174444Z
+cn: Arlisa Howard
+mail: arlisahoward@hotmail.com
+xmozillausehtmlmail: FALSE
+givenname: Arlisa
+sn: Howard
+objectclass: top
+objectclass: person
+
+dn: cn=Shelley Poore,mail=pooreme@aol.com
+modifytimestamp: 20010419172517Z
+cn: Shelley Poore
+mail: pooreme@aol.com
+xmozillausehtmlmail: FALSE
+givenname: Shelley
+sn: Hrynyshen (Poore)
+objectclass: top
+objectclass: person
+
+dn: cn=Dave Janney,mail=dave.janney@delta.com
+modifytimestamp: 20011122024042Z
+cn: Dave Janney
+mail: dave.janney@delta.com
+xmozillausehtmlmail: FALSE
+givenname: Dave
+sn: Janney
+objectclass: top
+objectclass: person
+
+dn: cn=Debbie Goodchild (Jester),mail=bldj@bellatlantic.net
+modifytimestamp: 20010419172153Z
+cn: Debbie Goodchild (Jester)
+mail: bldj@bellatlantic.net
+xmozillausehtmlmail: FALSE
+givenname: Debbie
+sn: Jester (Goodchild)
+telephonenumber: 302-428-3355
+homephone: 302-328-0297
+xmozillaanyphone: 302-428-3355
+objectclass: top
+objectclass: person
+
+dn: cn=Marie Nelson (Jubenville),mail=mnelson@corestaff.com
+modifytimestamp: 20010419172409Z
+cn: Marie Nelson (Jubenville)
+mail: mnelson@corestaff.com
+xmozillausehtmlmail: FALSE
+givenname: Marie
+sn: Jubenville (Nelson)
+objectclass: top
+objectclass: person
+
+dn: cn=Mark Kalinowski,mail=wxcpo@hotmail.com
+modifytimestamp: 20010516172251Z
+cn: Mark Kalinowski
+mail: wxcpo@hotmail.com
+xmozillausehtmlmail: FALSE
+givenname: Mark
+sn: Kalinowski
+objectclass: top
+objectclass: person
+
+dn: cn=Franz Kappel,mail=fkappel@nccvt.k12.de.us 
+modifytimestamp: 20010417133833Z
+cn: Franz Kappel
+mail: fkappel@nccvt.k12.de.us 
+xmozillausehtmlmail: FALSE
+givenname: Franz
+sn: Kappel
+objectclass: top
+objectclass: person
+
+dn: cn=Diana Kosinski,mail=Dianakosinski@msn.com
+modifytimestamp: 20010916213451Z
+cn: Dianna Kosinski (Stotler)
+mail: diannastotler@msn.com
+xmozillausehtmlmail: FALSE
+givenname: Dianna
+sn: Kosinski (Stotler)
+objectclass: top
+objectclass: person
+
+dn: cn=Felicia Kozak,mail=facatalano@fleetcc.com
+modifytimestamp: 20010419172107Z
+cn: Felicia Kozak
+mail: facatalano@fleetcc.com
+xmozillausehtmlmail: FALSE
+givenname: Felicia
+sn: Kozak (Catalano)
+objectclass: top
+objectclass: person
+
+dn: cn=Lamey, Jerry,mail=jlamey10@aol.com
+modifytimestamp: 20000314213531Z
+cn: Jerry Lamey
+mail: jlamey10@aol.com
+xmozillausehtmlmail: FALSE
+givenname: Jerry
+sn: Lamey
+objectclass: top
+objectclass: person
+
+dn: cn=Lori Lewis (Waters),mail=waterway44@aol.com
+modifytimestamp: 20010830182634Z
+cn: Lori Lewis (Waters)
+mail: waterway44@aol.com
+xmozillausehtmlmail: FALSE
+givenname: Lori
+sn: Lewis (Waters)
+objectclass: top
+objectclass: person
+
+dn: cn=Michele Peiffer,mail=michele.peiffer@nbc.com
+modifytimestamp: 20010419172428Z
+cn: Michele Peiffer
+mail: michele.peiffer@nbc.com
+xmozillausehtmlmail: FALSE
+givenname: Michele
+sn: Lhuleir (Peiffer)
+objectclass: top
+objectclass: person
+
+dn: cn=Michele Peiffer (Lhulier),mail=michtv@snip.net
+modifytimestamp: 20010419172441Z
+cn: Michele Peiffer (Lhulier)
+mail: michtv@snip.net
+xmozillausehtmlmail: FALSE
+givenname: Michele
+sn: Lhulier (Peiffer)
+objectclass: top
+objectclass: person
+
+dn: mail=LMayer-Garret@netEPS.com
+modifytimestamp: 20010830182718Z
+mail: LMayer-Garret@netEPS.com
+xmozillausehtmlmail: FALSE
+givenname: Lisa
+sn: Mayer-Garret
+objectclass: top
+objectclass: person
+
+dn: cn=Liz McNally (Walsh),mail=ewalsh@colonial.k12.de.us
+modifytimestamp: 20010425131923Z
+cn: Liz McNally (Walsh)
+mail: ewalsh@colonial.k12.de.us
+xmozillausehtmlmail: FALSE
+givenname: Liz
+sn: McNally (Walsh)
+objectclass: top
+objectclass: person
+
+dn: cn=Ed Mekalian,mail=edman@edmanonline.com
+modifytimestamp: 20010417133808Z
+cn: Ed Mekalian
+mail: edman@edmanonline.com
+xmozillausehtmlmail: FALSE
+givenname: Ed
+sn: Mekalian
+objectclass: top
+objectclass: person
+
+dn: cn=Renee Miller (Baclasky),mail=mamma4@email.msn.com
+modifytimestamp: 20010424131011Z
+cn: Renee Miller (Baclasky)
+mail: mamma4@email.msn.com
+xmozillausehtmlmail: FALSE
+givenname: Renee
+sn: Miller (Baclasky)
+objectclass: top
+objectclass: person
+
+dn: cn=Gina Miller (Newman),mail=lotsabeans@att.net
+modifytimestamp: 20010531145037Z
+cn: Gina Miller (Newman)
+mail: lotsabeans@att.net
+xmozillausehtmlmail: FALSE
+givenname: Gina
+sn: Miller (Newman)
+objectclass: top
+objectclass: person
+
+dn: cn=Pam Ballard,mail=p_ballard_29488@yahoo.com
+modifytimestamp: 20010419172033Z
+cn: Pam Ballard
+mail: p_ballard_29488@yahoo.com
+xmozillausehtmlmail: FALSE
+givenname: Pam
+sn: Pannell (Ballard)
+objectclass: top
+objectclass: person
+
+dn: cn=Debi Pearcy,mail=dchurchdoud@trionegordon.com
+modifytimestamp: 20010419172122Z
+cn: Debi Pearcy
+mail: dchurchdoud@trionegordon.com
+xmozillausehtmlmail: FALSE
+givenname: Debi
+sn: Pearcy (Church-Doud)
+objectclass: top
+objectclass: person
+
+dn: cn=Connie Poultney,mail=Dcttbeachbound@aol.com
+modifytimestamp: 20010419172533Z
+cn: Connie Poultney
+mail: Dcttbeachbound@aol.com
+xmozillausehtmlmail: FALSE
+givenname: Connie
+sn: Poultney (Schoenbeck)
+objectclass: top
+objectclass: person
+
+dn: cn=Bev Powell (Wilmore),mail=bev_wilmore@hotmail.com
+modifytimestamp: 20010812143821Z
+cn: Bev Powell (Wilmore)
+mail: bev_wilmore@hotmail.com
+xmozillausehtmlmail: FALSE
+givenname: Bev
+sn: Powell (Wilmore)
+objectclass: top
+objectclass: person
+
+dn: cn=Donna Roberts,mail=DonnaKayDE@aol.com
+modifytimestamp: 20010327162724Z
+cn: Donna Roberts
+mail: DonnaKayDE@aol.com
+xmozillausehtmlmail: FALSE
+givenname: Donna
+sn: Roberts
+objectclass: top
+objectclass: person
+
+dn: cn=Doreen Robinson (Cooper),mail=neerod_mom@hotmail.com
+modifytimestamp: 20010529144121Z
+cn: Doreen Robinson (Cooper)
+mail: neerod_mom@hotmail.com
+xmozillausehtmlmail: FALSE
+givenname: Doreen
+sn: Robinson (Cooper)
+objectclass: top
+objectclass: person
+
+dn: cn=Laura Robinson (Hamilton),mail=laura.hamilton@astrazeneca.com
+modifytimestamp: 20010529143616Z
+cn: Laura Robinson (Hamilton)
+mail: laura.hamilton@astrazeneca.com
+xmozillausehtmlmail: FALSE
+givenname: Laura
+sn: Robinson (Hamilton)
+objectclass: top
+objectclass: person
+
+dn: cn=Lisa Whitmarsh (Russo),mail=swhitmarsh@compuserve.com
+modifytimestamp: 20010612190532Z
+cn: Lisa Whitmarsh (Russo)
+mail: swhitmarsh@compuserve.com
+xmozillausehtmlmail: FALSE
+givenname: Lisa
+sn: Russo (Whitmarsh)
+objectclass: top
+objectclass: person
+
+dn: cn=Connie Schoenbeck,mail=cschnbck@merestoneconsultants.com
+modifytimestamp: 20010614221142Z
+cn: Connie Schoenbeck
+mail: cschnbck@merestoneconsultants.com
+xmozillausehtmlmail: FALSE
+givenname: Connie
+sn: Schoenbeck
+objectclass: top
+objectclass: person
+
+dn: cn=Mark Sheridan,mail=sheridanmas@earthlink.net
+modifytimestamp: 20010812143029Z
+cn: Mark Sheridan
+mail: sheridanmas@earthlink.net
+xmozillausehtmlmail: FALSE
+givenname: Mark
+sn: Sheridan
+objectclass: top
+objectclass: person
+
+dn: cn=Jane Slawick,mail=JPerillo@comcast.net
+modifytimestamp: 20020228031046Z
+cn: Jane Slawick
+mail: JPerillo@comcast.net
+xmozillausehtmlmail: FALSE
+givenname: Jane
+sn: Slawick (Perillo)
+objectclass: top
+objectclass: person
+
+dn: cn=Stewart, Jeff & Donna,mail=matahead@aol.com 
+modifytimestamp: 20020228031017Z
+cn: Jeff & Donna Stewart
+mail: dste@aol.com
+xmozillausehtmlmail: FALSE
+givenname: Jeff & Donna
+sn: Stewart
+xmozillanickname: mate
+xmozillauseconferenceserver: 0
+objectclass: top
+objectclass: person
+
+dn: cn=Dee Strawbridge,mail=deawabit@aol.com
+modifytimestamp: 20010327162807Z
+cn: Dee Strawbridge
+mail: deawabit@aol.com
+xmozillausehtmlmail: FALSE
+givenname: Dee
+sn: Strawbridge
+objectclass: top
+objectclass: person
+
+dn: cn=charles taylor,mail=cwt63@hotmail.com
+modifytimestamp: 20010914190603Z
+cn: charles taylor
+mail: cwt63@hotmail.com
+xmozillausehtmlmail: FALSE
+givenname: charles
+sn: taylor
+objectclass: top
+objectclass: person
+
+dn: cn=Lisa Bowser (Thompson),mail=lisalu98@aol.com
+modifytimestamp: 20010419172048Z
+cn: Lisa Bowser (Thompson)
+mail: lisalu98@aol.com
+xmozillausehtmlmail: FALSE
+givenname: Lisa
+sn: Thompson (Bowser )
+objectclass: top
+objectclass: person
+
+dn: cn=Steve Toner,mail=gunslinger1tx@yahoo.com
+modifytimestamp: 20010223023858Z
+cn: Steve Toner
+mail: gunslinger1tx@yahoo.com
+xmozillausehtmlmail: FALSE
+givenname: Steve
+sn: Toner
+objectclass: top
+objectclass: person
+
+dn: cn=Steve Toner,mail=txgunslinger@msn.com
+modifytimestamp: 20010327162920Z
+cn: Steve Toner
+mail: txgunslinger@msn.com
+xmozillausehtmlmail: FALSE
+givenname: Steve
+sn: Toner
+objectclass: top
+objectclass: person
+
+dn: cn=Donna Walker,mail=dtregoe@magpage.com
+modifytimestamp: 20010419172557Z
+cn: Donna Walker
+mail: dtregoe@magpage.com
+xmozillausehtmlmail: FALSE
+givenname: Donna
+sn: Walker (Tregoe)
+objectclass: top
+objectclass: person
+
+dn: cn=Candace Warren,mail=Candace_L_Warren@vanguard.com
+modifytimestamp: 20010718001753Z
+cn: Candace Warren
+mail: Candace_L_Warren@vanguard.com
+xmozillausehtmlmail: FALSE
+givenname: Candace
+sn: Warren
+objectclass: top
+objectclass: person
+
+dn: cn=Kendall Warren,mail=KWarren@Amherst1.com
+modifytimestamp: 20010718001517Z
+cn: Kendall Warren
+mail: KWarren@Amherst1.com
+xmozillausehtmlmail: FALSE
+givenname: Kendall
+sn: Warren
+objectclass: top
+objectclass: person
+
+dn: cn=Mark Weidick,mail=markw@zeroknowledge.com
+modifytimestamp: 20010718235333Z
+cn: Mark Weidick
+mail: markw@zeroknowledge.com
+xmozillausehtmlmail: FALSE
+givenname: Mark
+sn: Weidick
+objectclass: top
+objectclass: person
+
+dn: cn=Mark A. Williams,mail=marwilliams@state.de.us
+modifytimestamp: 20010925222410Z
+cn: Mark A. Williams
+mail: marwilliams@state.de.us
+xmozillausehtmlmail: FALSE
+givenname: Mark A.
+sn: Williams
+objectclass: top
+objectclass: person
+
+dn: cn=Sheila Woodlen,mail=swoodlen@neteps.com
+modifytimestamp: 20010529144040Z
+cn: Sheila Woodlen
+mail: swoodlen@neteps.com
+xmozillausehtmlmail: FALSE
+givenname: Sheila
+sn: Woodlen
+objectclass: top
+objectclass: person
+
+dn: cn=Michael Zinszer,mail=zinszerma@nedu.navysea.navy.mil
+modifytimestamp: 20010529143942Z
+cn: Michael Zinszer
+mail: zinszerma@nedu.navysea.navy.mil
+xmozillausehtmlmail: FALSE
+givenname: Michael
+sn: Zinszer
+objectclass: top
+objectclass: person
+
