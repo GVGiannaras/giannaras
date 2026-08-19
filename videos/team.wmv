@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Team Possible Video</title>
 </head>
-<body style="text-align: center; background-color: #000; color: #fff; padding-top: 40px;">
+<body style="margin: 0; background-color: #000; color: #fff; display: flex; justify-content: center; align-items: center; min-height: 100vh;">
 
-  <video width="800" height="450" controls autoplay>
+  <video width="800" height="450" controls autoplay style="max-width: 100%; height: auto;">
     <source src="teampossible.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
