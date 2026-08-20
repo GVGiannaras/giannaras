@@ -1,25 +1,129 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="windows-1252">
   <title>Recipes</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="description" content="Giannaras Family Recipes and Ratings">
+  <style>
+    /* --- Full Page Flex Layout --- */
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: "Times New Roman", serif;
+      background-color: #ffffff;
+    }
+
+    /* Layout wrapper to keep bottom bar glued to the bottom */
+    .wrapper {
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    /* --- Matching Top Header Banner --- */
+    .header-banner {
+      background-color: #3366FF;
+      color: #FFFFFF;
+      text-align: center;
+      padding: 15px 10px;
+      font-weight: bold;
+      font-size: 16px;
+      letter-spacing: 2px;
+    }
+
+    .header-banner img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 10px auto;
+    }
+
+    /* --- Middle Content Area --- */
+    .content-container {
+      flex-grow: 1;
+      padding: 20px 10px;
+      text-align: center;
+    }
+
+    .content-container a {
+      text-decoration: none;
+      color: #0000EE;
+    }
+
+    .content-container a:visited {
+      color: #FF0000;
+    }
+
+    .content-container a:hover {
+      text-decoration: underline;
+    }
+
+    /* --- Matching Bottom Navigation Bar --- */
+    .bottom-bar {
+      background-color: #3366FF;
+      text-align: center;
+      padding: 8px 10px;
+      font-family: "Times New Roman", serif;
+      font-size: 11pt;
+      font-weight: bold;
+    }
+
+    .bottom-bar a {
+      color: #FF0000;
+      text-decoration: underline;
+      margin: 0 4px;
+    }
+
+    .bottom-bar a:visited {
+      color: #FF0000;
+    }
+
+    .bottom-bar span {
+      color: #FFFFFF;
+    }
+  </style>
 </head>
-<body lang="EN-US" style="tab-interval: .5in" vlink="#FF0000" alink="#FF0000" link="#0000EE" bgcolor="#FFFFFF">
-  <div class="Section1">
-    <center>
-      <b><i><font color="#3366FF"><font size="+3">Recipes</font></font></i></b><br>
-      <i><font color="#FF0000"><font size="-1">(please rate these recipes on a scale of 1 to 5.&nbsp; I will post the results)</font></font></i><br>
-      <a style="TEXT-DECORATION: none" href="/beefrub.htm">Beef Rub</a> (rating-4.5)<br>
-      <a style="TEXT-DECORATION: none" href="/chickrub.htm">Chicken BBQ Sauce</a> (rating-4.0)<br>
-      <a style="TEXT-DECORATION: none" href="/pulledpork.htm">Pulled Pork BBQ</a> (rating-5.0)<br>
-      <a style="TEXT-DECORATION: none" href="/hotchicken.htm">Hot Chicken salad</a> (rating-4.0)<br>
-      <a style="TEXT-DECORATION: none" href="/pineappleorange.htm">Pineapple-Orange Sunshine Cake</a><br>
-      <a style="TEXT-DECORATION: none" href="/sweet ribs.htm">Sweet BBQ Ribs</a> (rating 5.0)<br>
-      <a style="TEXT-DECORATION: none" href="/chickbacon.htm">Carmen's Chicken</a> (rating 5.0)<br>
-      <a style="TEXT-DECORATION: none" href="/tailgatechicken.htm">Tailgate Chicken</a> (rating 5.0)
+<body>
+
+  <div class="wrapper">
+    
+    <!-- Top Header Banner with Greek Key -->
+    <div class="header-banner">
+      <img src="greekkey.jpg" alt="Greek Key Border">
+      T&nbsp;&nbsp;H&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G&nbsp;&nbsp;I&nbsp;&nbsp;A&nbsp;&nbsp;N&nbsp;&nbsp;N&nbsp;&nbsp;A&nbsp;&nbsp;R&nbsp;&nbsp;A&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F&nbsp;&nbsp;A&nbsp;&nbsp;M&nbsp;&nbsp;I&nbsp;&nbsp;L&nbsp;&nbsp;Y
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="content-container">
+      <b><i><font color="#3366FF" size="+3">Recipes</font></i></b><br>
+      <i><font color="#FF0000" size="-1">(please rate these recipes on a scale of 1 to 5.&nbsp; I will post the results)</font></i><br><br>
+      
+      <a href="beefrub.htm">Beef Rub</a> (rating-4.5)<br>
+      <a href="chickrub.htm">Chicken BBQ Sauce</a> (rating-4.0)<br>
+      <a href="pulledpork.htm">Pulled Pork BBQ</a> (rating-5.0)<br>
+      <a href="hotchicken.htm">Hot Chicken salad</a> (rating-4.0)<br>
+      <a href="pineappleorange.htm">Pineapple-Orange Sunshine Cake</a><br>
+      <a href="sweet ribs.htm">Sweet BBQ Ribs</a> (rating 5.0)<br>
+      <a href="chickbacon.htm">Carmen's Chicken</a> (rating 5.0)<br>
+      <a href="tailgatechicken.htm">Tailgate Chicken</a> (rating 5.0)
+      
       <p><b><i><font color="#3366FF">Ratings: 1 - lousy; 2 - fair; 3 - good; 4 - yummy; 5 - to die for</font></i></b></p>
-    </center>
-    <p><br></p>
+    </div>
+
+    <!-- Bottom Navigation Bar -->
+    <div class="bottom-bar">
+      <a href="index.html">Main</a> <span>♦</span>
+      <a href="albums/">Pictures</a> <span>♦</span>
+      <a href="video.htm">Videos</a> <span>♦</span>
+      <a href="recipes.htm">Recipes</a> <span>♦</span>
+      <a href="Comic.htm">Comics</a> <span>♦</span>
+      <a href="pools.htm">Sport Pools</a> <span>♦</span>
+      <a href="paymentpage.htm">Pay Me</a>
+    </div>
+
   </div>
+
 </body>
 </html>
