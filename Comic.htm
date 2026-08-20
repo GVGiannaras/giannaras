@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml">
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
   <meta name="ProgId" content="Word.Document">
@@ -119,6 +119,9 @@
         mso-style-unhide:no;
         mso-style-locked:yes;
         mso-style-link:"Balloon Text";
+        mso-ansi-font-size:8.0pt;
+        mso-bidi-font-size:8.0pt;
+        font-family:"Tahoma","sans-serif";
         mso-ascii-font-family:Tahoma;
         mso-hansi-font-family:Tahoma;
         mso-bidi-font-family:Tahoma;
@@ -138,40 +141,66 @@
   div.WordSection1
         {page:WordSection1;}
 
-  /* --- Extra Padding so bottom bar doesn't overlap long content --- */
-  body {
-    padding-bottom: 50px;
-  }
-
-  /* --- Static Top Header Styling --- */
-  .top-header {
-    text-align: center;
-    padding: 10px 0 5px 0;
+  /* --- Full Page Flex Layout --- */
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
     font-family: "Times New Roman", serif;
-    font-size: 14pt;
-    font-weight: bold;
-    color: #FF0000;
+    background-color: #ffffff;
   }
 
-  /* --- Fixed Bottom Navigation Bar Styling --- */
+  .wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  /* --- Matching Top Header Banner --- */
+  .header-banner {
+    background-color: #3366FF;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px 10px;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+
+  .header-banner img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+  }
+
+  /* --- Middle Content Area --- */
+  .content-container {
+    flex-grow: 1;
+    padding: 20px 0;
+  }
+
+  /* --- Matching Bottom Navigation Bar --- */
   .bottom-bar {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
     background-color: #3366FF;
     text-align: center;
-    padding: 8px 0;
+    padding: 8px 10px;
     font-family: "Times New Roman", serif;
     font-size: 11pt;
     font-weight: bold;
-    z-index: 1000;
   }
+
   .bottom-bar a {
-    color: #FF0000 !important;
+    color: #FF0000;
     text-decoration: underline;
     margin: 0 4px;
   }
+
+  .bottom-bar a:visited {
+    color: #FF0000;
+  }
+
   .bottom-bar span {
     color: #FFFFFF;
   }
@@ -182,27 +211,33 @@
 </head>
 <body bgcolor="white" lang="EN-US" link="#000066" vlink="red" style='tab-interval: .5in' alink="#FF0000">
 
-  <!-- Static Top Header (No Link) -->
-  <div class="top-header">
-    Giannaras Family Web Site
-  </div>
-  <hr size="2" color="#3366FF" style="margin: 5px 0 15px 0;">
+  <div class="wrapper">
+    
+    <!-- Top Header Banner with Greek Key -->
+    <div class="header-banner">
+      <img src="greekkey.jpg" alt="Greek Key Border">
+      T&nbsp;&nbsp;H&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G&nbsp;&nbsp;I&nbsp;&nbsp;A&nbsp;&nbsp;N&nbsp;&nbsp;N&nbsp;&nbsp;A&nbsp;&nbsp;R&nbsp;&nbsp;A&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F&nbsp;&nbsp;A&nbsp;&nbsp;M&nbsp;&nbsp;I&nbsp;&nbsp;L&nbsp;&nbsp;Y
+    </div>
 
-  <!-- Main Content -->
-  <div class="WordSection1">
-    <h1 align="center" style='text-align:center'><b><i><font size="6" color="#3366FF" face="Arial"><span style='font-size:24.0pt;font-family:"Arial","sans-serif"; mso-fareast-font-family:"Times New Roman";font-style:italic'>Comic of the Moment</span></font></i></b></h1>
-    <h1 align="center" style='text-align:center'><b style='mso-ansi-font-weight:normal'><font size="3" color="#3366FF" face="Times New Roman"><span style='font-size:12.0pt; font-weight:normal;mso-bidi-font-weight:bold;mso-no-proof:yes'><![if !vml]><img width="511" height="513" src="Comic_files/image002.jpg" alt="dilbert3.jpg" v:shapes="Picture_x0020_1"><![endif]></span></font></b><em><i><font size="3" face="Times New Roman"><span style='font-size:12.0pt;font-weight:normal; mso-bidi-font-weight:bold'></span></font></i></em></h1>
-  </div>
+    <!-- Main Comic Content -->
+    <div class="content-container">
+      <div class="WordSection1">
+        <h1 align="center" style='text-align:center'><b><i><font size="6" color="#3366FF" face="Arial"><span style='font-size:24.0pt;font-family:"Arial","sans-serif"; mso-fareast-font-family:"Times New Roman";font-style:italic'>Comic of the Moment</span></font></i></b></h1>
+        <h1 align="center" style='text-align:center'><b style='mso-ansi-font-weight:normal'><font size="3" color="#3366FF" face="Times New Roman"><span style='font-size:12.0pt; font-weight:normal;mso-bidi-font-weight:bold;mso-no-proof:yes'><![if !vml]><img width="511" height="513" src="Comic_files/image002.jpg" alt="dilbert3.jpg" v:shapes="Picture_x0020_1"><![endif]></span></font></b><em><i><font size="3" face="Times New Roman"><span style='font-size:12.0pt;font-weight:normal; mso-bidi-font-weight:bold'></span></font></i></em></h1>
+      </div>
+    </div>
 
-  <!-- Fixed Bottom Navigation Bar -->
-  <div class="bottom-bar">
-    <a href="index.html">Main</a> <span>♦</span>
-    <a href="albums/">Pictures</a> <span>♦</span>
-    <a href="video.htm">Videos</a> <span>♦</span>
-    <a href="recipes.htm">Recipes</a> <span>♦</span>
-    <a href="Comic.htm">Comics</a> <span>♦</span>
-    <a href="pools.htm">Sport Pools</a> <span>♦</span>
-    <a href="buyme.htm">Buy Me</a>
+    <!-- Bottom Navigation Bar -->
+    <div class="bottom-bar">
+      <a href="index.html">Main</a> <span>♦</span>
+      <a href="albums/">Pictures</a> <span>♦</span>
+      <a href="video.htm">Videos</a> <span>♦</span>
+      <a href="recipes.htm">Recipes</a> <span>♦</span>
+      <a href="Comic.htm">Comics</a> <span>♦</span>
+      <a href="pools.htm">Sport Pools</a> <span>♦</span>
+      <a href="buyme.htm">Buy Me</a>
+    </div>
+
   </div>
 
 </body>
