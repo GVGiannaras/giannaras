@@ -52,14 +52,34 @@
       max-width: 500px;
       height: auto;
       display: block;
-      margin: 0 auto;
+      margin: 0 auto 30px auto;
       border: 1px solid #ccc;
+    }
+
+    /* Navigation / Bottom Bar */
+    .nav-bar {
+      text-align: center;
+      padding: 15px 10px;
+      background-color: #f9f9f9;
+      border-top: 2px solid #3366FF;
+      font-family: Arial, sans-serif;
+      font-size: 11pt;
+    }
+
+    .nav-bar a {
+      color: #000066;
+      text-decoration: underline;
+      margin: 0 8px;
+    }
+
+    .nav-bar a:visited {
+      color: red;
     }
   </style>
 </head>
 <body>
 
-  <!-- Top Banner (Replaces menu.htm) -->
+  <!-- Top Banner -->
   <div class="header-banner">
     <img src="greekkey.jpg" alt="Greek Key Border">
     T&nbsp;&nbsp;H&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G&nbsp;&nbsp;I&nbsp;&nbsp;A&nbsp;&nbsp;N&nbsp;&nbsp;N&nbsp;&nbsp;A&nbsp;&nbsp;R&nbsp;&nbsp;A&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F&nbsp;&nbsp;A&nbsp;&nbsp;M&nbsp;&nbsp;I&nbsp;&nbsp;L&nbsp;&nbsp;Y
@@ -72,6 +92,15 @@
     </p>
 
     <img src="frontpage.jpeg" alt="Giannaras Family Front Page" class="front-image">
+  </div>
+
+  <!-- Navigation Bar (Bottom Bar) -->
+  <div class="nav-bar">
+    <a href="index.html">Home</a> |
+    <a href="photos.htm">Photos</a> |
+    <a href="video.htm">Videos</a> |
+    <a href="about.htm">About Us</a> |
+    <a href="links.htm">Cool Links</a>
   </div>
 
 </body>
