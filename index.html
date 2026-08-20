@@ -1,16 +1,124 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-  <meta name="description" content="Giannaras Family Web Site">
-  <meta name="keywords" content="giannaras, gman, gman007,disc jockey, DJ, apollo entertainment, perfect 16">
-  <meta name="Description" content="Giannaras Family Web Site">
-  <meta name="KeyWords" content="giannaras, gman, gman007,disc jockey, DJ, apollo entertainment, perfect 16">
-  <title>Giannaras Family Web Page.</title>
+  <meta charset="windows-1252">
+  <title>Giannaras Family Home Page</title>
+  <meta name="description" content="Giannaras Family home page, featuring pictures, bio, favorite sites, and cool links.">
+  <meta name="keywords" content="giannaras, gman, gman007, im2qt, toocute, disc jockey, DJ, apollo entertainment, plastic surgery, university of delaware, philadelphia eagles">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: "Times New Roman", serif;
+      background-color: #ffffff;
+    }
+
+    /* Layout wrapper to keep bottom bar glued to the bottom */
+    .wrapper {
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    /* Top Blue Header Banner (Centered) */
+    .header-banner {
+      background-color: #3366FF;
+      color: #FFFFFF;
+      text-align: center;
+      padding: 15px 10px;
+      font-weight: bold;
+      font-size: 16px;
+      letter-spacing: 2px;
+    }
+
+    .header-banner img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 10px auto;
+    }
+
+    /* Main Container */
+    .content-container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    .welcome-text {
+      font-family: Arial, sans-serif;
+      font-size: 10pt;
+      color: #3333FF;
+      line-height: 1.4;
+      margin-bottom: 20px;
+    }
+
+    .front-image {
+      max-width: 450px;
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* Original Solid Blue Bottom Navigation Bar */
+    .bottom-bar {
+      background-color: #3366FF;
+      text-align: center;
+      padding: 8px 10px;
+      font-family: "Times New Roman", serif;
+      font-size: 11pt;
+      font-weight: bold;
+    }
+
+    .bottom-bar a {
+      color: #FF0000; /* Original Red Link Color */
+      text-decoration: underline;
+      margin: 0 4px;
+    }
+
+    .bottom-bar a:visited {
+      color: #FF0000;
+    }
+
+    .bottom-bar span {
+      color: #FFFFFF; /* White diamond/separator bullets */
+    }
+  </style>
 </head>
-<frameset rows="9%,86%,5%" framespacing="0" frameborder="0" border="0">
-  <frame src="menu.htm" scrolling="no">
-  <frame src="index1.htm" name="main">
-  <frame src="footer.htm" scrolling="no">
-</frameset>
+<body>
+
+  <div class="wrapper">
+    <!-- Centered Top Banner -->
+    <div class="header-banner">
+      <img src="greekkey.jpg" alt="Greek Key Border">
+      T&nbsp;&nbsp;H&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G&nbsp;&nbsp;I&nbsp;&nbsp;A&nbsp;&nbsp;N&nbsp;&nbsp;N&nbsp;&nbsp;A&nbsp;&nbsp;R&nbsp;&nbsp;A&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F&nbsp;&nbsp;A&nbsp;&nbsp;M&nbsp;&nbsp;I&nbsp;&nbsp;L&nbsp;&nbsp;Y
+    </div>
+
+    <!-- Main Content -->
+    <div class="content-container">
+      <p class="welcome-text">
+        Welcome to our web site. We hope you enjoy viewing our pictures, laughing at our jokes and comics, and visiting other sites that we find interesting. If you have any comments please let us know!
+      </p>
+
+      <img src="frontpage.jpeg" alt="Giannaras Family Front Page" class="front-image">
+    </div>
+
+    <!-- Original Blue Bottom Navigation Bar -->
+    <div class="bottom-bar">
+      <a href="index1.htm">Main</a> <span>♦</span>
+      <a href="pictures.htm">Pictures</a> <span>♦</span>
+      <a href="video.htm">Videos</a> <span>♦</span>
+      <a href="recipes.htm">Recipes</a> <span>♦</span>
+      <a href="comics.htm">Comics</a> <span>♦</span>
+      <a href="pools.htm">Sport Pools</a> <span>♦</span>
+      <a href="paymentpage.htm">Pay Me</a>
+    </div>
+  </div>
+
+</body>
 </html>
