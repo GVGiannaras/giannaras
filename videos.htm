@@ -1,140 +1,218 @@
 <!DOCTYPE html>
-<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml">
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-  <meta name="ProgId" content="Word.Document">
-  <meta name="Originator" content="Microsoft Word 12">
-  <link rel="File-List" href="/videos_filelist.xml">
-  <title>Our Gallery Page</title>
-  <link rel="themeData" href="/videos_themedata.thmx">
-  <link rel="colorSchemeMapping" href="/videos_colorschememapping.xml">
+  <meta charset="windows-1252">
+  <title>Our Video Collection - Giannaras Family</title>
+  <meta name="description" content="Giannaras family and funny video collections.">
   <style>
-  <!--
-  /* Font Definitions */
-  @font-face
-        {font-family:"Cambria Math";
-        panose-1:2 4 5 3 5 4 6 3 2 4;
-        mso-font-charset:1;
-        mso-generic-font-family:roman;
-        mso-font-format:other;
-        mso-font-pitch:variable;
-        mso-font-signature:0 0 0 0 0 0;}
-  /* Style Definitions */
-  p.MsoNormal, li.MsoNormal, div.MsoNormal
-        {mso-style-unhide:no;
-        mso-style-qformat:yes;
-        mso-style-parent:"";
-        margin:0in;
-        margin-bottom:.0001pt;
-        mso-pagination:widow-orphan;
-        font-size:12.0pt;
-        font-family:"Times New Roman","serif";
-        mso-fareast-font-family:"Times New Roman";
-        color:#3366FF;}
-  h1
-        {mso-style-unhide:no;
-        mso-style-qformat:yes;
-        mso-style-link:"Heading 1 Char";
-        mso-margin-top-alt:auto;
-        margin-right:0in;
-        mso-margin-bottom-alt:auto;
-        margin-left:0in;
-        mso-pagination:widow-orphan;
-        mso-outline-level:1;
-        font-size:24.0pt;
-        font-family:"Times New Roman","serif";
-        mso-fareast-font-family:"Times New Roman";
-        mso-fareast-theme-font:minor-fareast;
-        color:#3366FF;
-        font-weight:bold;}
-  a:link, span.MsoHyperlink
-        {mso-style-unhide:no;
-        color:#000066;
-        text-decoration:underline;
-        text-underline:single;}
-  a:visited, span.MsoHyperlinkFollowed
-        {mso-style-unhide:no;
-        color:red;
-        text-decoration:underline;
-        text-underline:single;}
-  p
-        {mso-style-unhide:no;
-        mso-margin-top-alt:auto;
-        margin-right:0in;
-        mso-margin-bottom-alt:auto;
-        margin-left:0in;
-        mso-pagination:widow-orphan;
-        font-size:12.0pt;
-        font-family:"Times New Roman","serif";
-        mso-fareast-font-family:"Times New Roman";
-        color:#3366FF;}
-  span.Heading1Char
-        {mso-style-name:"Heading 1 Char";
-        mso-style-unhide:no;
-        mso-style-locked:yes;
-        mso-style-link:"Heading 1";
-        mso-ansi-font-size:14.0pt;
-        mso-bidi-font-size:14.0pt;
-        font-family:"Cambria","serif";
-        mso-ascii-font-family:Cambria;
-        mso-ascii-theme-font:major-latin;
-        mso-fareast-font-family:"Times New Roman";
-        mso-fareast-theme-font:major-fareast;
-        mso-hansi-font-family:Cambria;
-        mso-hansi-theme-font:major-latin;
-        mso-bidi-font-family:"Times New Roman";
-        mso-bidi-theme-font:major-bidi;
-        color:#365F91;
-        mso-themecolor:accent1;
-        mso-themeshade:191;
-        font-weight:bold;}
-  span.SpellE
-        {mso-style-name:"";
-        mso-spl-e:yes;}
-  span.GramE
-        {mso-style-name:"";
-        mso-gram-e:yes;}
-  .MsoChpDefault
-        {mso-style-type:export-only;
-        mso-default-props:yes;
-        font-size:10.0pt;
-        mso-ansi-font-size:10.0pt;
-        mso-bidi-font-size:10.0pt;}
-  @page WordSection1
-        {size:8.5in 11.0in;
-        margin:1.0in .5in 1.0in .5in;
-        mso-header-margin:.5in;
-        mso-footer-margin:.5in;
-        mso-paper-source:0;}
-  div.WordSection1
-        {page:WordSection1;}
-  -->
+    /* --- Full Page Flex Layout --- */
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: "Times New Roman", serif;
+      background-color: #ffffff;
+    }
+
+    /* Layout wrapper to keep bottom bar glued to the bottom */
+    .wrapper {
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    /* --- Matching Top Header Banner --- */
+    .header-banner {
+      background-color: #3366FF;
+      color: #FFFFFF;
+      text-align: center;
+      padding: 15px 10px;
+      font-weight: bold;
+      font-size: 16px;
+      letter-spacing: 2px;
+    }
+
+    .header-banner img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 10px auto;
+    }
+
+    /* --- Middle Content Area --- */
+    .content-container {
+      flex-grow: 1;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 30px 20px;
+      text-align: center;
+      color: #3366FF;
+    }
+
+    h1.section-title {
+      font-family: Arial, sans-serif;
+      font-size: 20pt;
+      font-style: italic;
+      font-weight: bold;
+      color: #3366FF;
+      margin-top: 20px;
+      margin-bottom: 15px;
+    }
+
+    .video-list {
+      font-family: Arial, sans-serif;
+      font-size: 12pt;
+      line-height: 1.8;
+      margin-bottom: 35px;
+    }
+
+    .video-list a {
+      color: #000066;
+      text-decoration: underline;
+    }
+
+    .video-list a:visited {
+      color: #FF0000;
+    }
+
+    /* --- Grid Layout for Funny Videos --- */
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      font-family: Arial, sans-serif;
+      font-size: 12pt;
+      margin-top: 15px;
+      text-align: center;
+    }
+
+    .video-grid a {
+      color: #000066;
+      text-decoration: underline;
+      display: inline-block;
+      padding: 4px 8px;
+    }
+
+    .video-grid a:visited {
+      color: #FF0000;
+    }
+
+    /* --- Matching Bottom Navigation Bar --- */
+    .bottom-bar {
+      background-color: #3366FF;
+      text-align: center;
+      padding: 8px 10px;
+      font-family: "Times New Roman", serif;
+      font-size: 11pt;
+      font-weight: bold;
+    }
+
+    .bottom-bar a {
+      color: #FF0000;
+      text-decoration: underline;
+      margin: 0 4px;
+    }
+
+    .bottom-bar a:visited {
+      color: #FF0000;
+    }
+
+    .bottom-bar span {
+      color: #FFFFFF;
+    }
   </style>
 </head>
-<body style="tab-interval: .5in" alink="#FF0000" bgcolor="white" lang="EN-US" link="#000066" vlink="red">
-  <div class="WordSection1">
-    <h1 style="text-align:center" align="center"><b><i><font color="#3366FF" face="Arial" size="5"><span style="font-size:20.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-font-family:&quot;Times New Roman&quot;;font-style:italic">Our Video Collection</span></font></i></b><font size="5"><span style="font-size:20.0pt; mso-fareast-font-family:&quot;Times New Roman&quot;"></span></font></h1>
-    <p style="text-align:center" align="center"><font color="#3366FF" face="Arial" size="3"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">Phillies/Red Sox Game:<span style="mso-spacerun:yes">&nbsp;</span> <a href="/videos/mate.wmv">Mate’s Guarantee</a><span style="mso-spacerun:yes">&nbsp;</span> <a href="/videos/PreGame.wmv">Pre-Game</a><span style="mso-spacerun:yes">&nbsp;</span> <a href="/videos/Stretch.wmv">7<sup>th</sup> Inning Stretch</a></span></font></p>
-    <p style="text-align:center" align="center"><font color="#3366FF" face="Arial" size="3"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">Nick's 15th Birthday at <span class="SpellE">Maggianos</span>:&nbsp;&nbsp;<a href="/videos/nick15_vid01.wmv">Clip#1</a></span></font> <font face="Arial"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">&nbsp;&nbsp;<a href="/videos/nick15_vid02.wmv">Clip#2</a></span></font></p>
-    <p style="text-align:center" align="center"><font color="#3366FF" face="Arial" size="3"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><a href="/videos/cotton.wmv">Georgia Doing Cotton-Eyed Joe</a></span></font></p>
-    <p style="text-align:center" align="center"><font color="#3366FF" face="Arial" size="3"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><a href="/videos/Alex_Delight.mov">Alex Delight</a></span></font></p>
-    <p style="text-align:center" align="center"><font color="#3366FF" face="Arial" size="3"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><a href="/videos/teampossible.mp4">Team Possible Dance</a></span></font></p>
-    <p style="text-align:center" align="center"><span class="SpellE"><font color="#3366FF" face="Arial" size="3"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">Lexie</span></font></span> <font face="Arial"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">&amp; Justin’s Wedding:<span style="mso-spacerun:yes">&nbsp;</span> <a href="/videos/Lexie1.wmv">#1</a>, <a href="/videos/Lexie2.wmv">#2</a>, <a href="/videos/Lexie3.wmv">#3</a>, <a href="/videos/Lexie4.wmv">#4</a>, <a href="/videos/Lexie5.wmv">#5</a></span></font></p>
-    <p style="text-align:center" align="center"><span class="SpellE"><font color="#3366FF" face="Arial" size="3"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">Arm Wrestle Challenage:<span style="mso-spacerun:yes">&nbsp;</span> <a href="/videos/Papa%20Bear%20v.%20Puddin.wmv">#1</a></span></font></span></p>
-    <h1 style="text-align:center" align="center"><b><i><font color="#3366FF" face="Arial" size="5"><span style="font-size:20.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-font-family:&quot;Times New Roman&quot;;font-style:italic">Funny Video Collection</span></font></i></b><font face="Arial" size="5"><span style="font-size: 20.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;; mso-bidi-font-style:italic"></span></font></h1>
-    <h1><b style="mso-ansi-font-weight:normal"><font color="#3366FF" face="Arial" size="3"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-font-family:&quot;Times New Roman&quot;;font-weight:normal;mso-bidi-font-weight: bold;mso-bidi-font-style:italic"><a href="/videos/Beavers.wmv">New Restaurant</a><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="/videos/Eagles_Fan.wmv">Eagles Fan</a><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="/videos/dance_white_guy_1.wmv">White Guy Dance</a><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;</span> <a href="/videos/bud1.wmv">Bud Light 1</a><span style="mso-tab-count:1">&nbsp;&nbsp;</span> <a href="/videos/clothing_drive.wmv">Clothing Drive</a></span></font></b></h1>
-    <h1><b style="mso-ansi-font-weight:normal"><font color="#3366FF" face="Arial" size="3"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-font-family:&quot;Times New Roman&quot;;font-weight:normal;mso-bidi-font-weight: bold;mso-bidi-font-style:italic"><a href="/videos/DNAtest.wmv">DNA Test</a><span style="mso-tab-count:3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="/videos/dodge.wmv">Dodge Ad</a><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="/videos/DumbBlonde.wmv">Dumb Blonde</a><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="/videos/bud2.wmv">Bud Light 2</a></span></font></b></h1>
-    <h1><b style="mso-ansi-font-weight:normal"><font color="#3366FF" face="Arial" size="3"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-font-family:&quot;Times New Roman&quot;;font-weight:normal;mso-bidi-font-weight: bold;mso-bidi-font-style:italic"><a href="/videos/Gov_Employees.wmv">Gov. Employees</a><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="/videos/newjeans.wmv">New Jeans</a><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="/videos/PinesolAshamed.wmv"><span class="SpellE">PineSol</span> Ad</a><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="/videos/bud3.wmv">Bud Light 3</a></span></font></b></h1>
-    <h1><b style="mso-ansi-font-weight:normal"><font color="#3366FF" face="Arial" size="3"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-font-family:&quot;Times New Roman&quot;;font-weight:normal;mso-bidi-font-weight: bold;mso-bidi-font-style:italic"><a href="/videos/PROSTATEEXAM.wmv">Prostate Exam</a><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="/videos/swear_jar.wmv">Swear Jar</a><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="/videos/TheWoodSpider_1.wmv">Wood Spider</a><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="/videos/bud4.wmv">Bud Light 4</a></span></font></b></h1>
-    <h1><b style="mso-ansi-font-weight:normal"><font color="#3366FF" face="Arial" size="3"><span style="font-size:12.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-font-family:&quot;Times New Roman&quot;;font-weight:normal;mso-bidi-font-weight: bold;mso-bidi-font-style:italic"><a href="/videos/Veggie_Love.wmv"><span class="GramE">Veggie Ad</span></a><span class="GramE"><span style="mso-tab-count:3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="/videos/www.wmv">W.W.W</a>.</span><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="/videos/Ikea.wmv">IKEA Ads</a><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="/videos/bud_Sleigh_Ride.mpeg">Bud Light 5</a></span></font></b></h1>
-    <h1 style="text-align:center" align="center"><b><font color="#3366FF" face="Times New Roman" size="6"><span style="font-size:24.0pt;mso-fareast-font-family: &quot;Times New Roman&quot;">&nbsp;</span></font></b></h1>
-    <p style="text-align:center" align="center"><font color="#3366FF" face="Times New Roman" size="3"><span style="font-size:12.0pt">&nbsp;</span></font></p>
-    <p style="text-align:center" align="center"><font color="#3366FF" face="Times New Roman" size="3"><span style="font-size:12.0pt">&nbsp;</span></font></p>
-    <p style="text-align:center" align="center"><font color="#3366FF" face="Times New Roman" size="3"><span style="font-size:12.0pt">&nbsp;</span></font></p>
-    <p style="text-align:center" align="center"><font color="#3366FF" face="Times New Roman" size="3"><span style="font-size:12.0pt">&nbsp;</span></font></p>
-    <p style="text-align:center" align="center"><font color="#3366FF" face="Times New Roman" size="3"><span style="font-size:12.0pt">&nbsp;</span></font></p>
-    <p style="text-align:center" align="center"><font color="#3366FF" face="Times New Roman" size="3"><span style="font-size:12.0pt">&nbsp;</span></font></p>
-    <p style="text-align:center" align="center"><font color="#3366FF" face="Times New Roman" size="3"><span style="font-size:12.0pt">&nbsp;</span></font></p>
+<body>
+
+  <div class="wrapper">
+    
+    <!-- Top Header Banner with Greek Key -->
+    <div class="header-banner">
+      <img src="greekkey.jpg" alt="Greek Key Border">
+      T&nbsp;&nbsp;H&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G&nbsp;&nbsp;I&nbsp;&nbsp;A&nbsp;&nbsp;N&nbsp;&nbsp;N&nbsp;&nbsp;A&nbsp;&nbsp;R&nbsp;&nbsp;A&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F&nbsp;&nbsp;A&nbsp;&nbsp;M&nbsp;&nbsp;I&nbsp;&nbsp;L&nbsp;&nbsp;Y
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="content-container">
+      
+      <!-- Section 1: Family Videos -->
+      <h1 class="section-title">Our Video Collection</h1>
+      
+      <div class="video-list">
+        <p>
+          Phillies/Red Sox Game: 
+          <a href="/videos/mate.wmv">Mate’s Guarantee</a> &nbsp;
+          <a href="/videos/PreGame.wmv">Pre-Game</a> &nbsp;
+          <a href="/videos/Stretch.wmv">7<sup>th</sup> Inning Stretch</a>
+        </p>
+        <p>
+          Nick's 15th Birthday at Maggianos: 
+          <a href="/videos/nick15_vid01.wmv">Clip#1</a> &nbsp;
+          <a href="/videos/nick15_vid02.wmv">Clip#2</a>
+        </p>
+        <p><a href="/videos/cotton.wmv">Georgia Doing Cotton-Eyed Joe</a></p>
+        <p><a href="/videos/Alex_Delight.mov">Alex Delight</a></p>
+        <p><a href="/videos/teampossible.mp4">Team Possible Dance</a></p>
+        <p>
+          Lexie &amp; Justin’s Wedding: 
+          <a href="/videos/Lexie1.wmv">#1</a>, 
+          <a href="/videos/Lexie2.wmv">#2</a>, 
+          <a href="/videos/Lexie3.wmv">#3</a>, 
+          <a href="/videos/Lexie4.wmv">#4</a>, 
+          <a href="/videos/Lexie5.wmv">#5</a>
+        </p>
+        <p>
+          Arm Wrestle Challenge: 
+          <a href="/videos/Papa%20Bear%20v.%20Puddin.wmv">#1</a>
+        </p>
+      </div>
+
+      <!-- Section 2: Funny Videos Grid -->
+      <h1 class="section-title">Funny Video Collection</h1>
+      
+      <div class="video-grid">
+        <a href="/videos/Beavers.wmv">New Restaurant</a>
+        <a href="/videos/Eagles_Fan.wmv">Eagles Fan</a>
+        <a href="/videos/dance_white_guy_1.wmv">White Guy Dance</a>
+        <a href="/videos/bud1.wmv">Bud Light 1</a>
+        <a href="/videos/clothing_drive.wmv">Clothing Drive</a>
+        
+        <a href="/videos/DNAtest.wmv">DNA Test</a>
+        <a href="/videos/dodge.wmv">Dodge Ad</a>
+        <a href="/videos/DumbBlonde.wmv">Dumb Blonde</a>
+        <a href="/videos/bud2.wmv">Bud Light 2</a>
+        
+        <a href="/videos/Gov_Employees.wmv">Gov. Employees</a>
+        <a href="/videos/newjeans.wmv">New Jeans</a>
+        <a href="/videos/PinesolAshamed.wmv">PineSol Ad</a>
+        <a href="/videos/bud3.wmv">Bud Light 3</a>
+        
+        <a href="/videos/PROSTATEEXAM.wmv">Prostate Exam</a>
+        <a href="/videos/swear_jar.wmv">Swear Jar</a>
+        <a href="/videos/TheWoodSpider_1.wmv">Wood Spider</a>
+        <a href="/videos/bud4.wmv">Bud Light 4</a>
+        
+        <a href="/videos/Veggie_Love.wmv">Veggie Ad</a>
+        <a href="/videos/www.wmv">W.W.W.</a>
+        <a href="/videos/Ikea.wmv">IKEA Ads</a>
+        <a href="/videos/bud_Sleigh_Ride.mpeg">Bud Light 5</a>
+      </div>
+
+    </div>
+
+    <!-- Bottom Navigation Bar -->
+    <div class="bottom-bar">
+      <a href="index.html">Main</a> <span>♦</span>
+      <a href="albums/">Pictures</a> <span>♦</span>
+      <a href="video.htm">Videos</a> <span>♦</span>
+      <a href="recipes.htm">Recipes</a> <span>♦</span>
+      <a href="Comic.htm">Comics</a> <span>♦</span>
+      <a href="pools.htm">Sport Pools</a> <span>♦</span>
+      <a href="paymentpage.htm">Pay Me</a>
+    </div>
+
   </div>
+
 </body>
 </html>
